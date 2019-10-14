@@ -13,3 +13,15 @@ spring:
     name: service-consumer
   profiles:
     active: dev
+
+# management.endpoints.web.exposure.include=*
+management:
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
