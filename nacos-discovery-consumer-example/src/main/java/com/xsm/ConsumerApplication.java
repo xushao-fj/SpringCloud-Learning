@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerApplication {
 
 
-    @LoadBalanced
+    @LoadBalanced // 负载均衡调用服务
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
