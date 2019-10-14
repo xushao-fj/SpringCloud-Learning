@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6aa552-6f61-445b-a19e-7b79ab7c4306" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-example/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/resources/bootstrap.yml" afterDir="false" />
+    <list default="true" id="1b6aa552-6f61-445b-a19e-7b79ab7c4306" name="Default Changelist" comment="feat: @RefreshScope 注解的使用">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/api-gateway/target/" />
     <ignored path="$PROJECT_DIR$/eruka-client/target/" />
@@ -28,8 +30,8 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="9" />
-          <entry key="md" value="2" />
+          <entry key="java" value="11" />
+          <entry key="md" value="4" />
           <entry key="pom" value="2" />
           <entry key="xml" value="2" />
           <entry key="yml" value="5" />
@@ -38,8 +40,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="9" />
-          <entry key="Markdown" value="2" />
+          <entry key="JAVA" value="11" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="4" />
           <entry key="YAML" value="5" />
@@ -48,7 +50,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="413" />
-          <entry key="md" value="579" />
+          <entry key="md" value="832" />
           <entry key="txt" value="31" />
           <entry key="xml" value="36" />
           <entry key="yml" value="51" />
@@ -57,7 +59,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="413" />
-          <entry key="Markdown" value="579" />
+          <entry key="Markdown" value="832" />
           <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="36" />
           <entry key="YAML" value="51" />
@@ -86,9 +88,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/ConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/feign/EchoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="1216">
+                <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="209">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -129,6 +177,7 @@
         <option value="$PROJECT_DIR$/nacos-discovery-consumer-example/README.md" />
         <option value="$PROJECT_DIR$/nacos-discovery-consumer-example/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -168,7 +217,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="358" />
     <option name="y" value="40" />
     <option name="width" value="916" />
@@ -268,7 +317,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571013788622</updated>
-      <workItem from="1571013789961" duration="12856000" />
+      <workItem from="1571013789961" duration="15317000" />
     </task>
     <task id="LOCAL-00001" summary="feat: nacos 作为配置中心 demo">
       <created>1571023457021</created>
@@ -288,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12856000" />
+    <option name="totallyTimeSpent" value="15317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-8" width="1848" height="1096" extended-state="6" />
@@ -298,7 +347,7 @@
       <window_info id="UI Designer" />
       <window_info id="Web" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18791947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29026845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -312,7 +361,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5301455" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43555093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -400,17 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -446,28 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="511">
-            <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-            <folding>
-              <element signature="e#291#292#0" expanded="true" />
-              <element signature="e#348#349#0" expanded="true" />
-              <element signature="e#161#162#0" expanded="true" />
-              <element signature="e#188#189#0" expanded="true" />
-              <element signature="e#227#228#0" expanded="true" />
-              <element signature="e#259#260#0" expanded="true" />
-              <element signature="e#289#290#0" expanded="true" />
-              <element signature="e#315#316#0" expanded="true" />
-              <element signature="e#353#354#0" expanded="true" />
-              <element signature="e#383#384#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/controller/TestRefreshScopeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -494,7 +510,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/src/main/java/com/xsm/feign/EchoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-discovery-consumer-example/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="1216">
+            <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
