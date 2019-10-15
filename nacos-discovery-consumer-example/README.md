@@ -73,4 +73,28 @@ public class TestRefreshPropertiesController {
     }
 
 }
+```  
+
+## actuator 自定义健康状态指示器  
+>* 编写一个指示器, 实现HealthIndicator接口  
+>* 指示器的名字 xxxHealthIndicator  
+>* 加入容器中  
+```java
+
+/**
+ * @author xsm
+ * @date 2019/10/15 9:07
+ */
+@Component
+public class MyAppHealthIndicator implements HealthIndicator {
+
+    @Override
+    public Health health() {
+        // 自定义的检查方法
+        // Health.down().build(); // 代表状态不健康
+        // Health.up().build(); // 代表状态健康
+        return Health.down().withDetail("msg", "服务异常").build();
+    }
+}
+
 ```
