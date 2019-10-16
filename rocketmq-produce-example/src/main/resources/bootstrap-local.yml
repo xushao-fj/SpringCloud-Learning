@@ -1,0 +1,33 @@
+server:
+  port: 8010
+
+spring:
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: localhost:9876
+        bindings:
+          output1:
+            producer:
+              group: binder-group
+              sync: true
+          output2:
+            producer:
+              transactional: true
+              group: myTxProducerGroup
+          output3:
+            producer:
+              group: pull-binder-group
+      bindings:
+        output1:
+          destination: test-topic
+          content-type: application/json
+        output2:
+          destination: TransactionTopic
+          content-type: application/json
+        output3:
+          destination: pull-topic
+          content-type: text/plain
+
+
