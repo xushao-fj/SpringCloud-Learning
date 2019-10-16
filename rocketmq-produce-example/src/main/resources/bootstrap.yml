@@ -1,0 +1,30 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # nacos\u6CE8\u518C\u4E2D\u5FC3\u5730\u5740
+        namespace: c818ac0e-efd4-4424-bbd1-48a38f13cd6e
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        namespace: c818ac0e-efd4-4424-bbd1-48a38f13cd6e
+
+  application:
+    name: rocketmq-produce-example
+
+  profiles:
+    active: local
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+debug: true
+
